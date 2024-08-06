@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เกมคิดเลขหรรษา</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>เกมคิดเลขหรรษา</h1>
+    <p>ใส่คำตอบที่ถูกต้องเพื่อที่จะไปขั้นตอนต่อไป</p>
+    <div class="problem">
+      <span id="num1"></span> <span id="operator"></span> <span id="num2"></span> = <input type="text" id="answer">
+      <button onclick="checkAnswer()">ตรวจสอบ</button>
+    </div>
+    <p id="result"></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
